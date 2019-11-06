@@ -94,7 +94,7 @@ const styles = {
   bmItem: {
     display: 'inline-block',
     padding: '0.6em',
-    color: '#000000',
+    color: '#fffce1',
     outline: 'none'
   },
   bmOverlay: {
