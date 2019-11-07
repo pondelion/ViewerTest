@@ -10,6 +10,13 @@ const StyledChart = styled.div`
   width: 30%;
 `
 
+interface Data {
+  x: number,
+  y: number,
+};
+
+export type DataType = Data[];
+
 type Props= {}
 
 export class Scatter extends React.Component<Props> {
@@ -53,6 +60,11 @@ export class Scatter extends React.Component<Props> {
       {x: 4, y: 4},
     ];
 
+    this.forceUpdate();
+  }
+
+  setData(data: {x: number, y: number}[]) {
+    this._data.datasets[0].data = data;
     this.forceUpdate();
   }
 
