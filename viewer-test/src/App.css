@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #b4bad2;
 }
 
 .App-logo {
@@ -22,3 +23,7 @@
 }
 
 .bm-menu { overflow-y: hidden !important; }
+
+.bm-menu a:focus, a:hover {
+  color: #c94e50 !important;
+}
