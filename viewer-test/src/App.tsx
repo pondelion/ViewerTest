@@ -1,16 +1,19 @@
 import React from 'react';
-import BubbleMenu from './menu/BubbleMenu';
-import ThreeScene from './3dviewer/ThreeScene';
-import CoordinateAxisScene from './3dviewer/CoordinateAxisScene';
-import TestBoxScene from './3dviewer/TestBoxScene';
+import BubbleMenu from './components/menu/BubbleMenu';
+import ThreeScene from './components/3dviewer/ThreeScene';
+import CoordinateAxisScene from './components/3dviewer/CoordinateAxisScene';
+import TestBoxScene from './components/3dviewer/TestBoxScene';
+import Scatter from './components/chart/Scatter';
+import Scene1 from './scene/Scene1';
 import './App.css';
 
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <BubbleMenu></BubbleMenu>
-      <TestBoxScene width={2000} height={800} cameraPos={{x: 5, y: 5, z: 5}} />
+      <BubbleMenu />
+      <div id='scene'></div>
+      {/* <Scene1 /> */}
     </div>
   );
 }

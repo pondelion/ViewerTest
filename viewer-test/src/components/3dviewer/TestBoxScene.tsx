@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import ThreeScene from './ThreeScene';
 import { ThreeObject, ThreeObjects } from './ThreeScene';
 import { Props as ThreeProps } from './ThreeScene';
-import { ObjectFactory as OF } from '../utils/three/ObjectFactory';
+import { ObjectFactory as OF } from '../../utils/three/ObjectFactory';
 
 
 type Props = ThreeProps;

@@ -1,5 +1,7 @@
 import React from 'react';
 import { bubble as BurgerMenu } from 'react-burger-menu';
+import Scene1 from '../../scene/Scene1';
+import { render } from 'react-dom';
 
 
 interface State {
@@ -106,7 +108,7 @@ const styles = {
 export class BubbleMenu extends React.Component<Props> {
 
   private _SCENE_LIST: string[] = [
-    'Scene1', 'Scene2', 'Scene3', 'Scene4'
+    'Scene2', 'Scene3', 'Scene4'
   ];
 
   constructor(props: Props) {
@@ -125,6 +127,7 @@ export class BubbleMenu extends React.Component<Props> {
           styles={styles}
           onStateChange={this.onStateChange}
         >
+          <a id='Scene1' className="menu-item" href="#" onClick={e => render(<Scene1/>, document.getElementById('scene'))}>Scene1</a>
           {items}
         </BurgerMenu>
       </div>
