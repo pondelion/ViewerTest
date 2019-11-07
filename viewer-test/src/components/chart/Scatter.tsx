@@ -63,7 +63,7 @@ export class Scatter extends React.Component<Props> {
     this.forceUpdate();
   }
 
-  setData(data: {x: number, y: number}[]) {
+  setData(data: DataType) {
     this._data.datasets[0].data = data;
     this.forceUpdate();
   }
