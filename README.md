@@ -1,1 +1,3 @@
 # ViewerTest
+
+![build status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiUkV1Umhuei81VlBqTFNaaXN5ZWcxeWVSa0cxdjZRaUpXeHA0RktyN2pNbFFEYXgxL1RnM3lDUUszcEhmL1ArNmtkaXFnY3E3YThlcitZM1JCM0ZjZ09RPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik1IS2NmeWpPcGtwVy9nNGoiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
