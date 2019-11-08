@@ -33,7 +33,7 @@ export class Scene1 extends React.Component<Props> {
         <TestBoxScene width={2000} height={800} cameraPos={{x: 5, y: 5, z: 5}} />
         <Scatter ref={this.scatterRef} />
         <Button variant="contained" color="primary" onClick={this.onButtonClick}>
-          update data a
+          update data
         </Button>
       </div>
     );

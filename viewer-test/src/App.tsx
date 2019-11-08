@@ -11,7 +11,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <BubbleMenu />
+      <BubbbleMenu />
       <div id='scene'></div>
       {/* <Scene1 /> */}
     </div>
