@@ -25,7 +25,7 @@ export interface Props {
 };
 
 
-class ThreeScene extends React.Component<Props> {
+export class ThreeScene extends React.Component<Props> {
 
   protected _scene: THREE.Scene;
   protected _camera: THREE.PerspectiveCamera;

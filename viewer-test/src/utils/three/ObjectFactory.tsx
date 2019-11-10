@@ -101,8 +101,7 @@ export class ObjectFactory {
     const dir = new THREE.Vector3(dir_x, dir_y, dir_z);
     const pos = new THREE.Vector3(pos_x, pos_y, pos_z);
     const arrowHelper = new THREE.ArrowHelper(dir, pos, length, color, 
-                                              headWidth=headWidth,
-                                              headLength=headLength);
+                                              headWidth, headLength);
     arrowHelper.name = name;
     arrowHelper.rotation.x = rotation_x;
     arrowHelper.rotation.y = rotation_y;
