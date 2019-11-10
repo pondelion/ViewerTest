@@ -123,7 +123,7 @@ export class BubbleMenu extends React.Component<Props> {
           styles={styles}
           onStateChange={this.onStateChange}
         >
-          <a id='Scene1' className="menu-item" href="javascript:;" onClick={e => render(<Scene1/>, document.getElementById('scene'))}>Scene1</a>
+          <a id='Scene1' className="menu-item" href="!#" onClick={e => render(<Scene1/>, document.getElementById('scene'))}>Scene1</a>
           {items}
         </BurgerMenu>
       </div>
